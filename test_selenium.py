@@ -1,67 +1,77 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service  # Configurare cale pentru ChromeDriver
-from selenium.webdriver.common.by import By  # Metode de localizare a elementelor
-from selenium.webdriver.common.keys import Keys  # Control asupra tastelor precum Enter, Escape
-from selenium.webdriver.support.ui import WebDriverWait  # Gestionare timpi de așteptare
-from selenium.webdriver.support import expected_conditions as EC  # Condiții pentru elemente vizibile
-from selenium.common.exceptions import TimeoutException  # Excepții pentru timpi de așteptare
-import time  # Pauze între acțiuni
 
-# Configurare cale pentru executabilul ChromeDriver
-chrome_service = Service('C:\\Users\\2021 august\\Desktop\\ChromeDriver\\chromedriver.exe')
+from selenium import webdriver  # Permite controlul browserului
+from selenium.common.exceptions import TimeoutException  # Gestionare excepții pentru timpi de așteptare
+from selenium.webdriver.chrome.service import Service  # Setare cale către ChromeDriver
+from selenium.webdriver.common.by import By  # Metode de localizare a elementelor pe pagină
+from selenium.webdriver.common.keys import Keys  # Simulează apăsarea tastelor
+from selenium.webdriver.support.ui import WebDriverWait  # Așteaptă elementele până devin accesibile
+from selenium.webdriver.support import expected_conditions as EC  # Condiții pentru accesibilitatea elementelor
+import time  # Adaugă pauze fixe în execuția codului
 
-# Inițializare driver Chrome cu serviciul configurat
-driver = webdriver.Chrome(service=chrome_service)
+# Specifică calea corectă către executabilul ChromeDriver
+service = Service('C:\\Users\\2021 august\\Desktop\\ChromeDriver\\chromedriver.exe')
 
-# Navighează pe YouTube
+# Inițializează driverul Chrome utilizând serviciul configurat
+driver = webdriver.Chrome(service=service)
+
+# Deschide YouTube
 driver.get("https://www.youtube.com")
-print("S-a deschis pagina:", driver.title)  # Afișează titlul paginii pentru confirmare
+print("Opening " + driver.title)  # Afișează titlul paginii pentru confirmarea încărcării
 
-# Pauză de 3 secunde pentru a permite încărcarea completă a elementelor
+# Așteaptă 3 secunde pentru a permite încărcarea completă a paginii și a pop-up-ului de consimțământ
 time.sleep(3)
 
-# Gestionare pop-up consimțământ (ex. Accept all)
+# Execută JavaScript pentru a găsi și face click pe butonul „Reject all” sau „Accept all”
 try:
-    # Așteaptă până când butonul „Accept all” devine vizibil și poate fi accesat
-    accept_button = WebDriverWait(driver, 10).until(
-        EC.visibility_of_element_located((By.XPATH, '//button[text()="Accept all"]'))
-    )
-    accept_button.click()  # Click pe butonul „Accept all” pentru a închide pop-up-ul
-    print("Butonul de consimțământ a fost apăsat.")
-except TimeoutException:
-    print("Butonul de consimțământ nu a fost găsit. Continuăm fără această acțiune.")
+    driver.execute_script("""
+        let buttons = document.querySelectorAll('button');  // Selectează toate butoanele de pe pagină
+        for (let button of buttons) {  // Parcurge fiecare buton găsit
+            if (button.innerText.includes('Reject all') || button.innerText.includes('Accept all')) {  
+                // Verifică dacă textul butonului conține „Reject all” sau „Accept all”
+                button.click();  // Face click pe butonul găsit
+                break;  // Oprește căutarea după primul buton găsit
+            }
+        }
+    """)
+    print("Am apăsat pe butonul de consimțământ ('Reject all' sau 'Accept all') folosind JavaScript.")
+except Exception as e:
+    # În caz de eroare la găsirea butonului, afișează un mesaj de eroare
+    print("Nu am reușit să apăs pe butonul de consimțământ folosind JavaScript:", e)
 
-# Caută bara de căutare pentru a introduce numele videoclipului
+# Așteaptă alte 3 secunde pentru stabilizarea paginii după închiderea pop-up-ului
+time.sleep(3)
+
+# Caută bara de căutare și introduce titlul videoclipului
 try:
-    # Așteaptă până când bara de căutare devine interactivă
-    search_bar = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.NAME, "search_query"))
+    searchedItem = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.NAME, "search_query"))  # Așteaptă până când bara de căutare devine interactivă
     )
-    search_bar.send_keys("Ed Sheeran - Shape of You")  # Trimite titlul videoclipului pentru căutare
-    search_bar.send_keys(Keys.RETURN)  # Apasă Enter pentru a iniția căutarea
-    print("Căutarea videoclipului a fost inițiată.")
+    searchedItem.send_keys("Ed Sheeran - Shape of You")  # Introduce titlul videoclipului în bara de căutare
+    searchedItem.send_keys(Keys.RETURN)  # Apasă tasta Enter pentru a începe căutarea
+    print("Am căutat videoclipul dorit.")
 except TimeoutException:
+    # În caz că bara de căutare nu este găsită, afișează un mesaj de eroare și închide browserul
     print("Bara de căutare nu a fost găsită.")
     driver.quit()
+    exit()
 
-# Pauză de 2 secunde pentru a permite încărcarea rezultatelor căutării
-time.sleep(2)
-
-# Caută și face click pe videoclipul dorit
+# Așteaptă încărcarea rezultatelor și selectează videoclipul dorit
 try:
-    # Găsește primul link care conține titlul parțial al videoclipului
-    video_link = WebDriverWait(driver, 10).until(
+    videoLink = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, "Ed Sheeran - Shape of You"))
+        # Găsește un link parțial care conține textul „Ed Sheeran - Shape of You”
     )
-    video_link.click()  # Click pe videoclip pentru a începe redarea
-    print("Videoclipul a fost selectat și redarea a început.")
+    videoLink.click()  # Face click pe videoclipul găsit pentru a începe redarea
+    print("Am dat click pe videoclipul dorit.")
 except TimeoutException:
-    print("Videoclipul nu a fost găsit în rezultatele căutării.")
+    # Dacă videoclipul nu este găsit în rezultate, afișează un mesaj de eroare și închide browserul
+    print("Videoclipul nu a fost găsit în rezultate.")
     driver.quit()
+    exit()
 
-# Pauză pentru vizualizarea videoclipului sau omitere reclame, dacă există
-time.sleep(5)
+# Așteaptă 5 secunde pentru a vizualiza videoclipul și pentru a permite omitere automată a reclamelor (dacă există)
+time.sleep(5)  # Pauză ajustabilă pentru durata reclamelor
 
-# Închidere browser la final
+# Închide browserul după finalizarea procesului
 driver.quit()
-print("Browserul a fost închis.")
+print("Am închis browserul.")
