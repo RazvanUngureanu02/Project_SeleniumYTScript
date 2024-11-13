@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 
 class YouTubeBrowser:
@@ -8,34 +9,68 @@ class YouTubeBrowser:
         service = webdriver.chrome.service.Service(driver_path)
         self.driver = webdriver.Chrome(service=service)
         self.driver.maximize_window()
-    
+
     def open_youtube(self):
         self.driver.get("https://www.youtube.com")
-        print("Opening YouTube")
+        print("Deschidem YouTube")
         time.sleep(3)
-    
+
     def accept_consent(self):
         try:
-            self.driver.execute_script("""
-                let buttons = document.querySelectorAll('button');
-                for (let button of buttons) {
-                    if (button.innerText.includes('Reject all') || button.innerText.includes('Accept all')) {
-                        button.click();
-                        break;
-                    }
-                }
-            """)
-            print("Am apăsat pe butonul de consimțământ ('Reject all' sau 'Accept all') folosind JavaScript.")
-            time.sleep(3)  # Așteaptă ca pagina să se actualizeze după consimțământ
+            WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.TAG_NAME, "button"))
+            )
+            buttons = self.driver.find_elements(By.TAG_NAME, "button")
+            for button in buttons:
+                text = button.get_attribute("innerText").strip().lower()
+                if "reject all" in text or "accept all" in text or "refuză tot" in text or "acceptă tot" in text:
+                    button.click()
+                    print(f"Am apăsat pe butonul de consimțământ: {text}")
+                    time.sleep(2)
+                    return
+            print("Nu am găsit butoanele de consimțământ.")
         except Exception as e:
-            print("Nu am reușit să apăs pe butonul de consimțământ:", e)
-    
+            print(f"Eroare la gestionarea consimțământului: {e}")
+
     def open_video_url(self, video_url):
         """Deschide un URL specific către videoclipul YouTube."""
         self.driver.get(video_url)
         print(f"Deschidem videoclipul la URL-ul: {video_url}")
-        time.sleep(5)  # Așteaptă câteva secunde pentru a permite încărcarea completă a videoclipului
-    
+        time.sleep(5)
+        self.accept_consent()
+        self.play_video()
+
+    def play_video(self):
+        """Redă videoclipul sau reclama automat, dacă este necesar."""
+        try:
+            play_button = WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.CLASS_NAME, "ytp-play-button"))
+            )
+            if "Play" in play_button.get_attribute("aria-label"):
+                play_button.click()
+                print("Am dat play automat la videoclip sau reclamă.")
+            else:
+                print("Videoclipul sau reclama este deja în redare.")
+        except Exception as e:
+            print("Nu am reușit să apăs pe butonul de play:", e)
+
+    def search_and_play(self, query):
+        """Caută un videoclip pe YouTube și redă primul rezultat."""
+        self.driver.get(f"https://www.youtube.com/results?search_query={query.replace(' ', '+')}")
+        print(f"Căutăm: {query}")
+        time.sleep(5)
+        self.accept_consent()  # Asigură trecerea de consimțământ
+        try:
+            # Selectează și redă primul rezultat
+            first_result = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, '//a[@id="video-title"]'))
+            )
+            first_result.click()
+            print("Redăm primul rezultat al căutării.")
+            time.sleep(5)
+        except Exception as e:
+            print("Eroare la căutarea sau redarea videoclipului:", e)
+
     def close(self):
         self.driver.quit()
         print("Am închis browserul.")

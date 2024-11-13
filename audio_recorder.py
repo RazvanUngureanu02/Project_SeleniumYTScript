@@ -1,52 +1,35 @@
-import pyaudio
-import wave
+import sounddevice as sd
+import numpy as np
+import soundfile as sf
+import threading
 
 class AudioRecorder:
-    def __init__(self, output_file="output_audio.wav", record_seconds=120, device_index=None):
+    def __init__(self, output_file="output_audio.wav", record_seconds=120, sample_rate=44100, chunk_duration=1):
         self.output_file = output_file
         self.record_seconds = record_seconds
-        self.device_index = device_index
+        self.sample_rate = sample_rate
+        self.chunk_duration = chunk_duration
+        self.stop_event = threading.Event()
 
-    def record_audio(self):
-        CHUNK = 1024
-        FORMAT = pyaudio.paInt16
-        CHANNELS = 1
-        RATE = 44100
+    def start_recording(self):
+        print("\u00cencepem \u00eenregistrarea audio...")
+        data = []
 
-        audio = pyaudio.PyAudio()
+        try:
+            with sd.InputStream(samplerate=self.sample_rate, channels=1) as mic:
+                for _ in range(int(self.record_seconds // self.chunk_duration)):
+                    if self.stop_event.is_set():
+                        break
+                    chunk = mic.read(int(self.sample_rate * self.chunk_duration))[0]
+                    data.append(chunk.flatten())
+        except Exception as e:
+            print(f"Eroare la \u00eenregistrarea audio: {e}")
 
-        if self.device_index is None:
-            self.device_index = self.find_device_index()
+        if data:
+            full_data = np.concatenate(data, axis=0)
+            sf.write(self.output_file, full_data, self.sample_rate)
+            print(f"\u00cenregistrare audio completat\u0103 \u0219i salvat\u0103 la: {self.output_file}")
 
-        stream = audio.open(format=FORMAT, channels=CHANNELS,
-                            rate=RATE, input=True, 
-                            input_device_index=self.device_index,
-                            frames_per_buffer=CHUNK)
-        
-        print("Începere înregistrare audio...")
-        frames = []
-        
-        for _ in range(0, int(RATE / CHUNK * self.record_seconds)):
-            data = stream.read(CHUNK)
-            frames.append(data)
-        
-        print("Înregistrare audio completă.")
-        
-        stream.stop_stream()
-        stream.close()
-        audio.terminate()
-
-        with wave.open(self.output_file, "wb") as wf:
-            wf.setnchannels(CHANNELS)
-            wf.setsampwidth(audio.get_sample_size(FORMAT))
-            wf.setframerate(RATE)
-            wf.writeframes(b''.join(frames))
-        
-    def find_device_index(self):
-        audio = pyaudio.PyAudio()
-        for i in range(audio.get_device_count()):
-            if "Stereo Mix" in audio.get_device_info_by_index(i).get("name", ""):
-                print(f"Found 'Stereo Mix' at index {i}")
-                return i
-        print("Stereo Mix not found, using default input.")
-        return None
+    def stop_recording(self):
+        print("Oprire \u00eenregistrare audio.")
+        self.stop_event.set()
