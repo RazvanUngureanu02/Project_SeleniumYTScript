@@ -32,6 +32,21 @@ class YouTubeBrowser:
         except Exception as e:
             print(f"Eroare la gestionarea consimțământului: {e}")
 
+    def handle_ads(self):
+        """Gestionează reclamele YouTube și apasă pe 'Skip Ad' doar dacă este disponibil."""
+        try:
+            while True:
+                # Caută butonul "Skip Ad"
+                skip_button = WebDriverWait(self.driver, 2).until(
+                    EC.presence_of_element_located((By.CLASS_NAME, "ytp-ad-skip-button"))
+                )
+                if skip_button.is_displayed():
+                    skip_button.click()
+                    print("Am sărit peste reclamă.")
+                    break
+        except Exception as e:
+            print("Nu există reclame de sărit sau s-a terminat redarea reclamei:", e)
+
     def open_video_url(self, video_url):
         """Deschide un URL specific către videoclipul YouTube."""
         self.driver.get(video_url)
@@ -41,18 +56,20 @@ class YouTubeBrowser:
         self.play_video()
 
     def play_video(self):
-        """Redă videoclipul sau reclama automat, dacă este necesar."""
+        """Redă videoclipul sau gestionați reclamele, dacă este necesar."""
         try:
+            # Verifică dacă videoclipul este în redare sau dacă există reclame
+            self.handle_ads()
             play_button = WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located((By.CLASS_NAME, "ytp-play-button"))
             )
             if "Play" in play_button.get_attribute("aria-label"):
                 play_button.click()
-                print("Am dat play automat la videoclip sau reclamă.")
+                print("Am dat play automat la videoclip.")
             else:
-                print("Videoclipul sau reclama este deja în redare.")
+                print("Videoclipul este deja în redare.")
         except Exception as e:
-            print("Nu am reușit să apăs pe butonul de play:", e)
+            print("Nu am reușit să redau videoclipul sau să gestionez reclamele:", e)
 
     def search_and_play(self, query):
         """Caută un videoclip pe YouTube și redă primul rezultat."""
@@ -68,6 +85,7 @@ class YouTubeBrowser:
             first_result.click()
             print("Redăm primul rezultat al căutării.")
             time.sleep(5)
+            self.handle_ads()  # Gestionează reclamele după selectarea videoclipului
         except Exception as e:
             print("Eroare la căutarea sau redarea videoclipului:", e)
 
