@@ -10,8 +10,9 @@ import subprocess
 
 
 class Recorder:
-    def __init__(self, duration, output_folder="Recordings"):
+    def __init__(self, duration, browser, output_folder="Recordings"):
         self.duration = duration
+        self.browser = browser  # Browser-ul este necesar pentru a fi închis
         self.output_folder = output_folder
         self.audio_file = os.path.join(self.output_folder, "output_audio.mp3")
         self.frames_dir = os.path.join(self.output_folder, "frames")
@@ -94,27 +95,31 @@ class Recorder:
             os.remove(os.path.join(self.frames_dir, frame))
         os.rmdir(self.frames_dir)
 
+    def close_browser_after_duration(self):
+        """Închidem browser-ul după durata specificată."""
+        time.sleep(self.duration)
+        try:
+            print("Închidem browser-ul...")
+            self.browser.close()  # Închidem tab-ul curent
+            self.browser.quit()  # Închidem complet browser-ul
+            print("Browser-ul a fost închis automat.")
+        except Exception as e:
+            print(f"Eroare la închiderea browser-ului: {e}")
+
     def start_recording(self):
-        """Pornim înregistrarea audio și video."""
+        """Pornim înregistrarea audio, capturarea video și închiderea automată a browser-ului."""
         audio_thread = threading.Thread(target=self.record_audio)
         video_thread = threading.Thread(target=self.capture_frames)
+        close_browser_thread = threading.Thread(target=self.close_browser_after_duration)
 
         print(f"\nPornim înregistrarea pentru {self.duration} secunde...")
         audio_thread.start()
         video_thread.start()
+        close_browser_thread.start()
 
         audio_thread.join()
         video_thread.join()
+        close_browser_thread.join()
 
         print("\nÎnregistrările au fost finalizate. Începem asamblarea...")
         self.assemble_video()
-
-
-# Main pentru testare
-if __name__ == "__main__":
-    try:
-        durata = int(input("Introduceți durata în secunde pentru înregistrare: "))
-        recorder = Recorder(durata)
-        recorder.start_recording()
-    except ValueError:
-        print("Introduceți un număr valid pentru durată.")

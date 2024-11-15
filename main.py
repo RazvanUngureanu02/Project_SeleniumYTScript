@@ -18,7 +18,7 @@ def main():
         print(f"Durata înregistrării: {duration} secunde")
 
         # Configurăm Recorder-ul
-        recorder = Recorder(duration=int(duration))
+        recorder = Recorder(duration=int(duration), browser=yt_browser)
 
         # Deschidem sau căutăm videoclipul în funcție de input
         if not yt_browser.driver.current_url.startswith("https://www.youtube.com/watch"):
@@ -39,11 +39,6 @@ def main():
 
     except Exception as e:
         print(f"A apărut o eroare: {e}")
-
-    finally:
-        # Asigurăm închiderea browserului în orice situație
-        print("Închidem browserul...")
-        yt_browser.close()
 
 if __name__ == "__main__":
     main()
