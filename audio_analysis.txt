@@ -1,0 +1,2 @@
+Nivel RMS: 0.000000
+Nivel dB: -inf dB

@@ -1,0 +1,417 @@
+2024-11-17 20:11:00,507 | INFO: Browser-ul a fost închis cu succes.
+2024-11-17 20:11:00,508 | INFO: Browser-ul a fost închis cu succes.
+2024-11-17 20:11:00,570 | INFO: URL/Nume videoclip introdus: 
+2024-11-17 20:11:00,586 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-17 20:11:04,653 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7F7C2F070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1ad4997b5f534cde42a1cd199bdbfe4a/url
+2024-11-17 20:11:08,717 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7F7C2F490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1ad4997b5f534cde42a1cd199bdbfe4a/url
+2024-11-17 20:11:12,763 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7F7C2F3A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1ad4997b5f534cde42a1cd199bdbfe4a/url
+2024-11-17 20:18:11,556 | INFO: URL/Nume videoclip introdus: marabu
+2024-11-17 20:18:34,973 | INFO: Pornim înregistrarea pentru 26 secunde.
+2024-11-17 20:18:34,975 | INFO: Începem înregistrarea audio.
+2024-11-17 20:18:34,976 | INFO: Începem capturarea cadrelor.
+2024-11-17 20:19:01,150 | INFO: Cadre capturate: 253, Framerate calculat: 9.73 FPS
+2024-11-17 20:19:03,754 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-17 20:19:05,103 | INFO: Browser-ul a fost închis cu succes.
+2024-11-17 20:19:05,103 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-17 20:19:05,122 | INFO: Începem asamblarea video.
+2024-11-17 20:33:41,150 | INFO: URL/Nume videoclip introdus: in da club
+2024-11-17 20:33:41,171 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-17 20:34:06,020 | INFO: Pornim procesul de înregistrare pentru 30 secunde.
+2024-11-17 20:34:06,022 | INFO: Pornim înregistrarea audio.
+2024-11-17 20:34:06,040 | INFO: Pornim capturarea cadrelor.
+2024-11-17 20:34:36,219 | INFO: Cadre capturate: 254, Framerate calculat: 8.47 FPS
+2024-11-17 20:34:38,532 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-17 20:34:40,130 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 20:34:40,130 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-17 20:34:40,148 | INFO: Pornim procesul de asamblare video.
+2024-11-17 20:35:40,719 | INFO: Pornim analiza nivelului audio.
+2024-11-17 20:35:44,864 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF929F35E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e6473235da06e4da188b81f9f8c0f5ff
+2024-11-17 20:35:48,894 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF929F3550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e6473235da06e4da188b81f9f8c0f5ff
+2024-11-17 20:35:52,923 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF929F3340>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e6473235da06e4da188b81f9f8c0f5ff
+2024-11-17 20:36:01,015 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 20:41:24,130 | INFO: URL/Nume videoclip introdus: la gozadera
+2024-11-17 20:41:24,146 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-17 20:41:45,386 | INFO: Pornim procesul de înregistrare pentru 35 secunde.
+2024-11-17 20:41:45,387 | INFO: Pornim înregistrarea audio.
+2024-11-17 20:41:45,387 | INFO: Pornim capturarea cadrelor.
+2024-11-17 20:42:20,568 | INFO: Cadre capturate: 287, Framerate calculat: 8.20 FPS
+2024-11-17 20:42:23,508 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-17 20:42:24,887 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 20:42:24,888 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-17 20:42:24,904 | INFO: Pornim procesul de asamblare video.
+2024-11-17 20:42:42,030 | INFO: Pornim analiza nivelului audio.
+2024-11-17 20:42:46,183 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE76AA25E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc503241ff20f9bb454594ee20af8866
+2024-11-17 20:42:50,275 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE76AA2550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc503241ff20f9bb454594ee20af8866
+2024-11-17 20:42:54,306 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE76AA2490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc503241ff20f9bb454594ee20af8866
+2024-11-17 20:43:02,365 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 20:50:58,799 | INFO: URL/Nume videoclip introdus: makeba
+2024-11-17 20:50:58,811 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-17 20:51:24,772 | INFO: Pornim procesul de înregistrare pentru 25 secunde.
+2024-11-17 20:51:24,777 | INFO: Pornim înregistrarea audio.
+2024-11-17 20:51:24,777 | INFO: Pornim capturarea cadrelor.
+2024-11-17 20:51:49,884 | INFO: Cadre capturate: 224, Framerate calculat: 8.96 FPS
+2024-11-17 20:51:52,007 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-17 20:51:54,108 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 20:51:54,109 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-17 20:51:54,130 | INFO: Pornim procesul de asamblare video.
+2024-11-17 20:52:06,679 | INFO: Pornim analiza nivelului audio.
+2024-11-17 20:52:10,778 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E93D78FE50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bec3375d28e6dac8da07cdefa79f4fc9
+2024-11-17 20:52:14,838 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E93D78FC10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bec3375d28e6dac8da07cdefa79f4fc9
+2024-11-17 20:52:18,884 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E93D78F280>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bec3375d28e6dac8da07cdefa79f4fc9
+2024-11-17 20:52:26,959 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 21:06:58,945 | INFO: URL/Nume videoclip introdus: marabu
+2024-11-17 21:06:58,959 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-17 21:07:26,459 | INFO: Pornim procesul de înregistrare pentru 20 secunde.
+2024-11-17 21:07:26,467 | INFO: Pornim înregistrarea audio.
+2024-11-17 21:07:26,468 | INFO: Pornim capturarea cadrelor.
+2024-11-17 21:07:46,686 | INFO: Cadre capturate: 177, Framerate calculat: 8.85 FPS
+2024-11-17 21:07:48,063 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-17 21:07:50,274 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 21:07:50,274 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-17 21:07:50,292 | INFO: Pornim procesul de asamblare video.
+2024-11-17 21:08:02,690 | INFO: Pornim analiza nivelului audio.
+2024-11-17 21:08:07,241 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C56EB6EDC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1bf5ee41b810c7cb5344cd2852f4fe8f
+2024-11-17 21:08:11,331 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C56EB6EB80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1bf5ee41b810c7cb5344cd2852f4fe8f
+2024-11-17 21:08:15,444 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C56EB6E370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1bf5ee41b810c7cb5344cd2852f4fe8f
+2024-11-17 21:08:23,651 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 21:21:24,085 | INFO: URL/Nume videoclip introdus: fein
+2024-11-17 21:21:24,106 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-17 21:21:49,729 | INFO: Pornim procesul de înregistrare pentru 31 secunde.
+2024-11-17 21:21:49,731 | INFO: Pornim înregistrarea audio.
+2024-11-17 21:21:49,731 | INFO: Pornim capturarea cadrelor.
+2024-11-17 21:22:20,850 | INFO: Cadre capturate: 333, Framerate calculat: 10.74 FPS
+2024-11-17 21:22:23,004 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-17 21:22:25,124 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 21:22:25,124 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-17 21:22:25,132 | INFO: Pornim procesul de asamblare video.
+2024-11-17 21:22:40,174 | INFO: Pornim analiza nivelului audio.
+2024-11-17 21:22:44,328 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000216A79B2F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ca6ed31bc18b561574b4f11e70510a68
+2024-11-17 21:22:48,374 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000216A79B2E80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ca6ed31bc18b561574b4f11e70510a68
+2024-11-17 21:22:52,420 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000216A79B2D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ca6ed31bc18b561574b4f11e70510a68
+2024-11-17 21:23:00,543 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 21:45:28,477 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 21:47:59,102 | INFO: YouTubeGUI a fost iniÈ›ializat cu succes.
+2024-11-17 21:47:59,219 | INFO: InterfaÈ›a graficÄƒ a fost creatÄƒ.
+2024-11-17 21:48:06,591 | ERROR: Input gol introdus la Submit.
+2024-11-17 21:53:11,984 | INFO: YouTubeGUI a fost iniÈ›ializat cu succes.
+2024-11-17 21:53:12,103 | INFO: InterfaÈ›a graficÄƒ a fost creatÄƒ.
+2024-11-17 21:56:18,506 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 21:56:18,506 | INFO: Browser-ul a fost închis cu succes.
+2024-11-17 21:56:18,568 | INFO: URL/Nume videoclip introdus: 
+2024-11-17 21:56:18,599 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-17 21:56:22,675 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFE2B615B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/108b8d36fcc666cb8e32eded7cf53b2f/url
+2024-11-17 21:56:26,747 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFE2B61970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/108b8d36fcc666cb8e32eded7cf53b2f/url
+2024-11-17 21:56:30,814 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFE2B61A00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/108b8d36fcc666cb8e32eded7cf53b2f/url
+2024-11-17 21:56:38,998 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFE2B61FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/108b8d36fcc666cb8e32eded7cf53b2f
+2024-11-17 21:56:43,065 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFE61BE4C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/108b8d36fcc666cb8e32eded7cf53b2f
+2024-11-17 21:56:47,131 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFE61BE580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/108b8d36fcc666cb8e32eded7cf53b2f
+2024-11-17 21:56:55,232 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 22:09:30,774 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 22:25:35,767 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'close'
+2024-11-17 22:46:15,099 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 22:46:15,099 | INFO: Browser-ul a fost închis cu succes.
+2024-11-17 22:46:15,215 | INFO: URL/Nume videoclip introdus: 
+2024-11-17 22:46:19,276 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A3464225E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f58aa3dd9a2ce4e75fde14682645ff6d/url
+2024-11-17 22:46:23,323 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A3464228E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f58aa3dd9a2ce4e75fde14682645ff6d/url
+2024-11-17 22:46:27,369 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A346422A00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f58aa3dd9a2ce4e75fde14682645ff6d/url
+2024-11-17 22:46:35,491 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A346422FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f58aa3dd9a2ce4e75fde14682645ff6d
+2024-11-17 22:46:39,520 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A34742F4F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f58aa3dd9a2ce4e75fde14682645ff6d
+2024-11-17 22:46:43,582 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A34742F5B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f58aa3dd9a2ce4e75fde14682645ff6d
+2024-11-17 22:46:51,657 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 22:49:07,205 | INFO: URL/Nume videoclip introdus: viva la vida coldplay
+2024-11-17 22:49:29,480 | INFO: Pornim procesul de înregistrare pentru 24 secunde.
+2024-11-17 22:49:29,481 | INFO: Pornim înregistrarea audio.
+2024-11-17 22:49:29,481 | INFO: Pornim capturarea cadrelor.
+2024-11-17 22:49:53,625 | INFO: Cadre capturate: 243, Framerate calculat: 10.12 FPS
+2024-11-17 22:49:55,786 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-17 22:49:56,924 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 22:49:56,924 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-17 22:49:56,940 | INFO: Pornim procesul de asamblare video.
+2024-11-17 22:50:10,517 | INFO: Pornim analiza nivelului audio.
+2024-11-17 22:50:14,651 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F058373E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0f0c44d52efca978f77dfacc3944d08f
+2024-11-17 22:50:18,680 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F058373D60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0f0c44d52efca978f77dfacc3944d08f
+2024-11-17 22:50:22,742 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0583737C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0f0c44d52efca978f77dfacc3944d08f
+2024-11-17 22:50:30,802 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 23:44:07,675 | INFO: URL/Nume videoclip introdus: makeba
+2024-11-17 23:44:07,708 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-17 23:44:09,051 | INFO: Pornim procesul de înregistrare pentru 31 secunde.
+2024-11-17 23:44:09,052 | INFO: Pornim înregistrarea audio.
+2024-11-17 23:44:09,053 | INFO: Pornim capturarea cadrelor.
+2024-11-17 23:44:40,190 | INFO: Cadre capturate: 416, Framerate calculat: 13.42 FPS
+2024-11-17 23:44:41,142 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-17 23:44:42,459 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-17 23:44:42,459 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-17 23:44:42,478 | INFO: Pornim procesul de asamblare video.
+2024-11-17 23:44:47,480 | INFO: Pornim analiza nivelului audio.
+2024-11-17 23:44:51,611 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184E0BB3AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/750042dec457414919888f546cf728e6
+2024-11-17 23:44:55,661 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184E0BB3BB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/750042dec457414919888f546cf728e6
+2024-11-17 23:44:59,690 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184E0BB3A60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/750042dec457414919888f546cf728e6
+2024-11-17 23:45:07,780 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 00:07:08,031 | INFO: URL/Nume videoclip introdus: marabu
+2024-11-18 00:07:08,047 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 00:07:33,698 | INFO: Pornim procesul de înregistrare pentru 15 secunde.
+2024-11-18 00:07:33,709 | INFO: Pornim înregistrarea audio.
+2024-11-18 00:07:33,742 | INFO: Pornim capturarea cadrelor.
+2024-11-18 00:07:48,893 | INFO: Cadre capturate: 129, Framerate calculat: 8.60 FPS
+2024-11-18 00:07:51,174 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 00:07:52,616 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 00:07:52,618 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 00:07:52,633 | INFO: Pornim procesul de asamblare video.
+2024-11-18 00:08:06,262 | INFO: Pornim analiza nivelului audio.
+2024-11-18 00:08:10,367 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE2242CD00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/95074b6bd6f65b6c5207fce13c492f90
+2024-11-18 00:08:14,398 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE2242CC70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/95074b6bd6f65b6c5207fce13c492f90
+2024-11-18 00:08:18,427 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE2242C7C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/95074b6bd6f65b6c5207fce13c492f90
+2024-11-18 00:08:26,487 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 00:16:38,863 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 00:16:38,866 | INFO: Browser-ul a fost închis cu succes.
+2024-11-18 00:16:38,908 | INFO: URL/Nume videoclip introdus: 
+2024-11-18 00:16:38,921 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 00:16:42,994 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000221887FF610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/65b43d5fff821be8e881f9aeb3ede5b2/url
+2024-11-18 00:16:47,078 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000221887FF940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/65b43d5fff821be8e881f9aeb3ede5b2/url
+2024-11-18 00:16:51,145 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000221887FF9D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/65b43d5fff821be8e881f9aeb3ede5b2/url
+2024-11-18 00:16:59,595 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000221887FFFA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/65b43d5fff821be8e881f9aeb3ede5b2
+2024-11-18 00:17:03,656 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002218BE39490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/65b43d5fff821be8e881f9aeb3ede5b2
+2024-11-18 00:17:07,714 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002218BE39550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/65b43d5fff821be8e881f9aeb3ede5b2
+2024-11-18 00:17:15,798 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 00:18:40,244 | INFO: Starting main function.
+2024-11-18 00:18:40,251 | INFO: Initializing application and configuring browser driver.
+2024-11-18 00:18:42,431 | INFO: Chrome browser initialized and maximized.
+2024-11-18 00:18:42,432 | INFO: Launching GUI.
+2024-11-18 00:18:42,432 | ERROR: An error occurred during application execution: Too early to create variable: no default root window
+2024-11-18 00:18:42,434 | INFO: Closing browser if still active.
+2024-11-18 00:18:46,138 | INFO: Chrome browser closed successfully.
+2024-11-18 00:18:46,138 | INFO: Application has ended.
+2024-11-18 00:34:32,247 | INFO: Ad Blocker enabled: True
+2024-11-18 00:34:32,247 | INFO: Ad Blocker a fost activat.
+2024-11-18 00:34:32,288 | INFO: URL/Nume videoclip introdus: makeba
+2024-11-18 00:34:55,831 | INFO: Pornim procesul de înregistrare pentru 15 secunde.
+2024-11-18 00:34:55,844 | INFO: Pornim înregistrarea audio.
+2024-11-18 00:34:55,864 | INFO: Pornim capturarea cadrelor.
+2024-11-18 00:35:11,040 | INFO: Cadre capturate: 111, Framerate calculat: 7.40 FPS
+2024-11-18 00:35:12,239 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 00:35:14,639 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 00:35:14,639 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 00:35:14,656 | INFO: Pornim procesul de asamblare video.
+2024-11-18 00:35:19,915 | INFO: Pornim analiza nivelului audio.
+2024-11-18 00:35:24,046 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002952EA5EEB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/137b6e83e994efd8e7971de1db584067
+2024-11-18 00:35:28,100 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002952EA5ECD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/137b6e83e994efd8e7971de1db584067
+2024-11-18 00:35:32,152 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002952EA5EC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/137b6e83e994efd8e7971de1db584067
+2024-11-18 00:35:40,311 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 01:05:14,601 | INFO: URL/Nume videoclip introdus: makeba
+2024-11-18 01:05:14,616 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 01:05:35,706 | INFO: Pornim procesul de înregistrare pentru 10 secunde.
+2024-11-18 01:05:35,709 | INFO: Pornim înregistrarea audio.
+2024-11-18 01:05:35,736 | INFO: Pornim capturarea cadrelor.
+2024-11-18 01:05:45,981 | INFO: Cadre capturate: 62, Framerate calculat: 6.20 FPS
+2024-11-18 01:05:48,164 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 01:05:51,430 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 01:05:51,430 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 01:05:51,438 | INFO: Pornim procesul de asamblare video.
+2024-11-18 01:06:43,023 | INFO: Pornim analiza nivelului audio.
+2024-11-18 01:06:47,116 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000126C319C550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f9b4cc2f96c9864071e672d3c6c5f1db
+2024-11-18 01:06:51,147 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000126C319C2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f9b4cc2f96c9864071e672d3c6c5f1db
+2024-11-18 01:06:55,207 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000126C30A56D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f9b4cc2f96c9864071e672d3c6c5f1db
+2024-11-18 01:07:03,283 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 01:24:09,970 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 01:24:09,970 | INFO: Browser-ul a fost închis cu succes.
+2024-11-18 01:24:10,020 | INFO: URL/Nume videoclip introdus: 
+2024-11-18 01:24:10,044 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 01:24:14,130 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B4A18AE190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9fa92f25715d99f252c63d3d405498f0/url
+2024-11-18 01:24:18,161 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B4A18AE430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9fa92f25715d99f252c63d3d405498f0/url
+2024-11-18 01:24:22,238 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B4A18AE1C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9fa92f25715d99f252c63d3d405498f0/url
+2024-11-18 01:24:30,360 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B4A18AE730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9fa92f25715d99f252c63d3d405498f0
+2024-11-18 01:24:34,406 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B4A18AEBE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9fa92f25715d99f252c63d3d405498f0
+2024-11-18 01:24:38,451 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B4A18AECA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9fa92f25715d99f252c63d3d405498f0
+2024-11-18 01:24:46,542 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 01:52:31,250 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 01:55:04,265 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:01:16,817 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:12:47,099 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:25:20,691 | INFO: URL/Nume videoclip introdus: la gozadera
+2024-11-18 02:25:42,111 | INFO: Pornim procesul de înregistrare pentru 22 secunde.
+2024-11-18 02:25:42,112 | INFO: Pornim înregistrarea audio.
+2024-11-18 02:25:42,113 | INFO: Pornim capturarea cadrelor.
+2024-11-18 02:26:04,271 | INFO: Cadre capturate: 153, Framerate calculat: 6.95 FPS
+2024-11-18 02:26:07,276 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 02:26:08,186 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:26:08,186 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 02:26:08,204 | INFO: Pornim procesul de asamblare video.
+2024-11-18 02:27:42,143 | INFO: Pornim analiza nivelului audio.
+2024-11-18 02:27:46,293 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DFF73D35E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d404ba67a87ade36fbc156d2209f8020
+2024-11-18 02:27:50,349 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DFF73D36A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d404ba67a87ade36fbc156d2209f8020
+2024-11-18 02:27:54,386 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DFF73D37F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d404ba67a87ade36fbc156d2209f8020
+2024-11-18 02:28:02,555 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:44:53,814 | INFO: URL/Nume videoclip introdus: coldplay viva la vida
+2024-11-18 02:44:53,845 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 02:45:09,273 | INFO: Pornim procesul de înregistrare pentru 18 secunde.
+2024-11-18 02:45:09,274 | INFO: Pornim înregistrarea audio.
+2024-11-18 02:45:09,275 | INFO: Pornim capturarea cadrelor.
+2024-11-18 02:45:27,358 | INFO: Cadre capturate: 237, Framerate calculat: 13.17 FPS
+2024-11-18 02:45:27,798 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 02:45:30,699 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:45:30,699 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 02:45:30,718 | INFO: Pornim procesul de asamblare video.
+2024-11-18 02:47:04,142 | INFO: Pornim analiza nivelului audio.
+2024-11-18 02:47:08,267 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000198CCF616D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/15872b3e3f9ebd6ac5e7aae09ded37cf
+2024-11-18 02:47:12,312 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000198CCF61A00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/15872b3e3f9ebd6ac5e7aae09ded37cf
+2024-11-18 02:47:16,389 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000198CCF612E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/15872b3e3f9ebd6ac5e7aae09ded37cf
+2024-11-18 02:47:24,465 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:49:33,802 | INFO: URL/Nume videoclip introdus: viva la vida coldplay
+2024-11-18 02:49:33,817 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 02:49:48,933 | INFO: Pornim procesul de înregistrare pentru 18 secunde.
+2024-11-18 02:49:48,937 | INFO: Pornim înregistrarea audio.
+2024-11-18 02:49:48,939 | INFO: Pornim capturarea cadrelor.
+2024-11-18 02:50:07,250 | INFO: Cadre capturate: 228, Framerate calculat: 12.67 FPS
+2024-11-18 02:50:07,848 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 02:50:10,921 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:50:10,921 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 02:50:10,943 | INFO: Pornim procesul de asamblare video.
+2024-11-18 02:52:07,814 | INFO: Pornim analiza nivelului audio.
+2024-11-18 02:52:11,932 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002596377F490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e483de6cb85eb9e917042d2b06af4a22
+2024-11-18 02:52:15,995 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002596377FA60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e483de6cb85eb9e917042d2b06af4a22
+2024-11-18 02:52:20,077 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002596377F640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e483de6cb85eb9e917042d2b06af4a22
+2024-11-18 02:52:28,192 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:56:15,558 | INFO: URL/Nume videoclip introdus: viva la vida coldplau
+2024-11-18 02:56:15,573 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 02:56:19,874 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:57:11,336 | INFO: URL/Nume videoclip introdus: viva la vida
+2024-11-18 02:57:36,698 | INFO: Pornim procesul de înregistrare pentru 19 secunde.
+2024-11-18 02:57:36,700 | INFO: Pornim înregistrarea audio.
+2024-11-18 02:57:36,701 | INFO: Pornim capturarea cadrelor.
+2024-11-18 02:57:55,876 | INFO: Cadre capturate: 153, Framerate calculat: 8.05 FPS
+2024-11-18 02:57:58,135 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 02:58:00,125 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 02:58:00,125 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 02:58:00,142 | INFO: Pornim procesul de asamblare video.
+2024-11-18 02:58:09,268 | INFO: Pornim analiza nivelului audio.
+2024-11-18 02:58:13,407 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002ADAFED1A30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4c3a34a9535964bb34c29261a9f680aa
+2024-11-18 02:58:17,440 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002ADAFED17F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4c3a34a9535964bb34c29261a9f680aa
+2024-11-18 02:58:21,492 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002ADAFED1640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4c3a34a9535964bb34c29261a9f680aa
+2024-11-18 02:58:29,582 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 03:03:22,941 | INFO: URL/Nume videoclip introdus: makeba
+2024-11-18 03:03:22,955 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 03:03:49,618 | INFO: Pornim procesul de înregistrare pentru 14 secunde.
+2024-11-18 03:03:49,620 | INFO: Pornim înregistrarea audio.
+2024-11-18 03:03:49,633 | INFO: Pornim capturarea cadrelor.
+2024-11-18 03:04:03,937 | INFO: Cadre capturate: 131, Framerate calculat: 9.36 FPS
+2024-11-18 03:04:04,972 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 03:04:08,074 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 03:04:08,074 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 03:04:08,092 | INFO: Pornim procesul de asamblare video.
+2024-11-18 03:04:50,488 | INFO: Pornim analiza nivelului audio.
+2024-11-18 03:04:54,600 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C29B361700>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bf0abe4b59c2904b2f9a50a0c0abd84f
+2024-11-18 03:04:58,630 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C29B3619D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bf0abe4b59c2904b2f9a50a0c0abd84f
+2024-11-18 03:05:02,662 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C29B361490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bf0abe4b59c2904b2f9a50a0c0abd84f
+2024-11-18 03:05:10,721 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 15:31:02,510 | INFO: URL/Nume videoclip introdus: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:31:02,528 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 15:31:02,623 | INFO: Deschidem URL-ul videoclipului: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:31:07,494 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 15:32:10,201 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:14,286 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:14,310 | INFO: Deschidem URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:15,484 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:15,498 | INFO: Deschidem URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:16,138 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:16,153 | INFO: Deschidem URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:16,351 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:16,370 | INFO: Deschidem URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:16,551 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:16,563 | INFO: Deschidem URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:16,734 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:16,754 | INFO: Deschidem URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:16,935 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:16,953 | INFO: Deschidem URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:17,135 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:17,150 | INFO: Deschidem URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:18,210 | INFO: Validare URL pentru 'https://www.youtube.com/watch?v=4j725wScY0E': True
+2024-11-18 15:32:18,210 | ERROR: Input invalid introdus pentru Search.
+2024-11-18 15:32:28,884 | INFO: URL/Nume videoclip introdus: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:28,920 | INFO: Deschidem URL-ul videoclipului: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:32:31,487 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 15:40:08,896 | INFO: URL/Nume videoclip introdus: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:40:08,963 | INFO: Deschidem URL-ul videoclipului: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:40:17,113 | INFO: URL-ul https://www.youtube.com/watch?v=4j725wScY0E a fost deschis cu succes.
+2024-11-18 15:40:37,939 | INFO: Nu au fost detectate reclame sau butonul de skip nu este disponibil.
+2024-11-18 15:40:37,951 | INFO: Pornim procesul de înregistrare pentru 23 secunde.
+2024-11-18 15:40:37,952 | INFO: Pornim înregistrarea audio.
+2024-11-18 15:40:37,953 | INFO: Pornim capturarea cadrelor.
+2024-11-18 15:41:01,239 | INFO: Cadre capturate: 263, Framerate calculat: 11.43 FPS
+2024-11-18 15:41:01,914 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 15:41:05,254 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 15:41:05,256 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 15:41:05,279 | INFO: Pornim procesul de asamblare video.
+2024-11-18 15:46:09,162 | INFO: Pornim analiza nivelului audio.
+2024-11-18 15:46:13,321 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000213311B44F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c91e9c44f49f464a3b84b797102f1237
+2024-11-18 15:46:17,376 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000213311B4940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c91e9c44f49f464a3b84b797102f1237
+2024-11-18 15:46:21,951 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000213311B43D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c91e9c44f49f464a3b84b797102f1237
+2024-11-18 15:46:31,158 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 15:49:50,870 | INFO: URL/Nume videoclip introdus: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:49:50,887 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 15:49:50,958 | INFO: Deschidem URL-ul videoclipului: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 15:49:58,939 | INFO: URL-ul https://www.youtube.com/watch?v=4j725wScY0E a fost deschis cu succes.
+2024-11-18 15:50:16,739 | INFO: Nu au fost detectate reclame sau butonul de skip nu este disponibil.
+2024-11-18 15:50:16,764 | INFO: Pornim procesul de înregistrare pentru 25 secunde.
+2024-11-18 15:50:16,766 | INFO: Pornim înregistrarea audio.
+2024-11-18 15:50:16,767 | INFO: Pornim capturarea cadrelor.
+2024-11-18 15:50:41,958 | INFO: Cadre capturate: 271, Framerate calculat: 10.84 FPS
+2024-11-18 15:50:42,760 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 15:50:45,532 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 15:50:45,533 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 15:50:45,548 | INFO: Pornim procesul de asamblare video.
+2024-11-18 15:53:55,310 | INFO: Pornim analiza nivelului audio.
+2024-11-18 15:53:59,442 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F42D3629D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e12613e9a999c9221a96332ad7e29e1e
+2024-11-18 15:54:03,473 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F42D42B370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e12613e9a999c9221a96332ad7e29e1e
+2024-11-18 15:54:07,501 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F42D42B6D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e12613e9a999c9221a96332ad7e29e1e
+2024-11-18 15:54:15,592 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 15:55:58,866 | INFO: URL/Nume videoclip introdus: makeba
+2024-11-18 15:55:58,882 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 15:56:01,570 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 16:06:05,590 | CRITICAL: Eroare la configurarea browser-ului: name 'logger' is not defined
+2024-11-18 16:08:46,417 | CRITICAL: Eroare la configurarea browser-ului: name 'logger' is not defined
+2024-11-18 16:11:43,388 | CRITICAL: Eroare la configurarea browser-ului: name 'logger' is not defined
+2024-11-18 16:12:40,843 | INFO: URL/Nume videoclip introdus: maluma gims
+2024-11-18 16:13:04,382 | INFO: Pornim procesul de înregistrare pentru 30 secunde.
+2024-11-18 16:13:04,384 | INFO: Pornim înregistrarea audio.
+2024-11-18 16:13:04,385 | INFO: Pornim capturarea cadrelor.
+2024-11-18 16:13:34,537 | INFO: Cadre capturate: 298, Framerate calculat: 9.93 FPS
+2024-11-18 16:13:36,254 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 16:13:38,483 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 16:13:38,483 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 16:13:38,499 | INFO: Pornim procesul de asamblare video.
+2024-11-18 16:13:54,291 | INFO: Pornim analiza nivelului audio.
+2024-11-18 16:13:58,459 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFF3CE3DF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4398e4ecb52df24fdbe084154f050b47
+2024-11-18 16:14:02,490 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFF3CE3BB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4398e4ecb52df24fdbe084154f050b47
+2024-11-18 16:14:06,522 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFF3CE34F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4398e4ecb52df24fdbe084154f050b47
+2024-11-18 16:14:14,596 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 16:15:39,021 | INFO: URL/Nume videoclip introdus: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 16:15:39,036 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 16:15:39,140 | INFO: Deschidem URL-ul videoclipului: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 16:15:46,345 | INFO: Videoclipul a fost deschis cu URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 16:15:57,168 | INFO: Videoclipul este deja în redare.
+2024-11-18 16:15:57,183 | INFO: Pornim procesul de înregistrare pentru 30 secunde.
+2024-11-18 16:15:57,184 | INFO: Pornim înregistrarea audio.
+2024-11-18 16:15:57,185 | INFO: Pornim capturarea cadrelor.
+2024-11-18 16:16:27,350 | INFO: Cadre capturate: 390, Framerate calculat: 13.00 FPS
+2024-11-18 16:16:28,048 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 16:16:31,185 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 16:16:31,186 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 16:16:31,222 | INFO: Pornim procesul de asamblare video.
+2024-11-18 16:16:43,311 | INFO: Pornim analiza nivelului audio.
+2024-11-18 16:16:47,444 | WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024D0FB63F70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/993ffd3b77643b4224baf9b087bd16b8
+2024-11-18 16:16:51,496 | WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024D0FB63CA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/993ffd3b77643b4224baf9b087bd16b8
+2024-11-18 16:16:55,564 | WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024D0FB63C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/993ffd3b77643b4224baf9b087bd16b8
+2024-11-18 16:17:03,659 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 16:17:20,382 | INFO: URL/Nume videoclip introdus: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 16:17:20,396 | INFO: Creat directorul pentru cadre: Recordings\frames
+2024-11-18 16:17:20,423 | INFO: Deschidem URL-ul videoclipului: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 16:17:25,761 | INFO: Videoclipul a fost deschis cu URL-ul: https://www.youtube.com/watch?v=4j725wScY0E
+2024-11-18 16:17:36,452 | INFO: Videoclipul este deja în redare.
+2024-11-18 16:17:36,469 | INFO: Pornim procesul de înregistrare pentru 30 secunde.
+2024-11-18 16:17:36,471 | INFO: Pornim înregistrarea audio.
+2024-11-18 16:17:36,471 | INFO: Pornim capturarea cadrelor.
+2024-11-18 16:18:06,648 | INFO: Cadre capturate: 312, Framerate calculat: 10.40 FPS
+2024-11-18 16:18:08,208 | INFO: Audio-ul a fost salvat la: Recordings\output_audio.mp3
+2024-11-18 16:18:08,927 | INFO: Browser-ul Chrome a fost închis cu succes.
+2024-11-18 16:18:08,927 | ERROR: Eroare la închiderea browser-ului: 'YouTubeBrowser' object has no attribute 'quit'
+2024-11-18 16:18:08,943 | INFO: Pornim procesul de asamblare video.
